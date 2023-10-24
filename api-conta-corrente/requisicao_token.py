@@ -9,8 +9,8 @@ def token(client_id):
         'scope': 'openid cco_extrato cco_saldo'
     }
 
-    cert_path = 'C:/Users/vitor/OneDrive/Documentos/GITHUB/APIs/certificado.pfx'
-    cert_password = 'bartLavanda2023'
+    cert_path = 'caminho_do_certificao'
+    cert_password = 'senha_do_certificado'
 
     token_url = 'https://auth.sicoob.com.br/auth/realms/cooperado/protocol/openid-connect/token'
 
