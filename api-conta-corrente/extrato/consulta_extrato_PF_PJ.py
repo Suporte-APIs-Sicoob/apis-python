@@ -1,8 +1,8 @@
 import requests
 from requisicao_token import token
 
-extrato = "06/2022"
-numeroContaCorrente = "123456"
+extrato = "06/2023"
+numeroContaCorrente = "12345678"
 client_id = "1234567a-1ab2-12ab-12a3-12abcd71234a"
 
 payload = {}
