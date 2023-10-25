@@ -13,5 +13,3 @@ headers = {
 }
 
 response = requests.request("GET", f"https://api.sicoob.com.br/conta-corrente/saldo?numeroContaCorrente={numeroContaCorrente}", headers=headers, data=payload)
-
-print(response.text)
