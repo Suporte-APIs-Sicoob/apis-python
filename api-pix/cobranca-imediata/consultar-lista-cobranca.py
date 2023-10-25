@@ -21,3 +21,4 @@ headers = {
 }
 
 response = requests.request("GET", url_cnpj, headers=headers, data=payload)
+# response = requests.request("GET", url_cpf, headers=headers, data=payload)
