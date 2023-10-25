@@ -6,7 +6,7 @@ def token(client_id):
     data = {
         'grant_type': 'client_credentials',
         'client_id': f'{client_id}',
-        'scope': 'openid cco_extrato cco_saldo'
+        'scope': 'cco_extrato cco_saldo'
     }
 
     cert_path = 'caminho_do_certificao'
